@@ -8,7 +8,7 @@
         "url": "https://github.com/kqns91/vscode-extension-timestamp.git"
     },
     "icon": "images/icon.png",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "engines": {
         "vscode": "^1.90.0"
     },
