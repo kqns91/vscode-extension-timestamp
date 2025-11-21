@@ -12,9 +12,9 @@
     },
     "homepage": "https://github.com/kqns91/vscode-extension-timestamp#readme",
     "icon": "images/icon.png",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "engines": {
-        "vscode": "^1.90.0"
+        "vscode": "^1.80.0"
     },
     "categories": [
         "Other"
