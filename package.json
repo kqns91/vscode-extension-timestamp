@@ -5,8 +5,12 @@
     "publisher": "kqns91",
     "repository": {
         "type": "git",
-        "url": "https://github.com/kqns91/vscode-extension-timestamp.git"
+        "url": "https://github.com/kqns91/vscode-extension-timestamp"
     },
+    "bugs": {
+        "url": "https://github.com/kqns91/vscode-extension-timestamp/issues"
+    },
+    "homepage": "https://github.com/kqns91/vscode-extension-timestamp#readme",
     "icon": "images/icon.png",
     "version": "0.2.0",
     "engines": {
