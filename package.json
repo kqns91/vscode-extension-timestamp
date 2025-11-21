@@ -1,0 +1,49 @@
+{
+    "name": "vscode-extension-timestamp",
+    "displayName": "Unix Timestamp Hover",
+    "description": "Shows human-readable date for Unix timestamps on hover",
+    "publisher": "kqns91",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kqns91/vscode-extension-timestamp.git"
+    },
+    "icon": "images/icon.png",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.90.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "configuration": {
+            "title": "Unix Timestamp Hover",
+            "properties": {
+                "timestampHover.timezone": {
+                    "type": "string",
+                    "default": "Asia/Tokyo",
+                    "description": "Timezone to use for displaying the date (e.g., 'Asia/Tokyo', 'UTC', 'America/New_York')."
+                },
+                "timestampHover.format": {
+                    "type": "string",
+                    "default": "YYYY/MM/DD HH:mm:ss",
+                    "description": "Date format string. Available placeholders: YYYY, MM, DD, HH, mm, ss, SSS"
+                }
+            }
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.90.0",
+        "@types/node": "20.x",
+        "typescript": "^5.4.5"
+    }
+}
