@@ -2,9 +2,9 @@
 
 All notable changes to the "vscode-extension-timestamp" extension will be documented in this file.
 
-## [0.2.2] - 2023-12-06
+## [0.2.3] - 2023-12-06
 
-- Setup automated publishing via GitHub Actions to Marketplace and Open VSX.
+- Retry automated publishing configuration.
 
 ## [0.2.1] - 2023-11-21
 

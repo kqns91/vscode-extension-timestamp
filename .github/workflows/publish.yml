@@ -30,7 +30,6 @@ jobs:
         with:
           pat: ${{ secrets.VSCE_TOKEN }}
           registryUrl: https://marketplace.visualstudio.com
-          packagePath: "" # Automatically detect vsix or package.json
 
       - name: Publish to Open VSX Registry
         uses: HaaLeo/publish-vscode-extension@v1
