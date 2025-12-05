@@ -6,3 +6,4 @@ out
 .vscode
 !/.vscode/launch.json
 PUBLISHING.md
+PUBLISHING_OPEN_VSX.md
